@@ -1,0 +1,385 @@
+[
+  {
+    "order": 12,
+    "code": "agutaya",
+    "value": "Agutaya",
+    "coords": {
+      "lat": 11.153173418858616,
+      "lng": 120.9400211470152
+    },
+    "barangay": [
+      "ABAGAT",
+      "ALGECIRAS",
+      "BANGCAL",
+      "CAMBIAN",
+      "CONCEPCION",
+      "DIIT",
+      "MARACANAO",
+      "MATARAWIS",
+      "VILLAFRIA",
+      "VILLASOL"
+    ]
+  },
+  {
+    "order": 3,
+    "code": "araceli",
+    "value": "Araceli",
+    "coords": {
+      "lat": 10.553653185822249,
+      "lng": 119.99014750453823
+    },
+    "barangay": [
+      "BALOGO",
+      "DAGMAN",
+      "DALAYAWAN",
+      "LUMACAD",
+      "MADOLDOLON",
+      "MAURINGUEN",
+      "OSMEÑA",
+      "POBLACION",
+      "SAN JOSE DE ORO",
+      "SANTO NIÑO",
+      "TALOTO",
+      "TININTINAN",
+      "TUDELA"
+    ]
+  },
+  {
+    "order": 7,
+    "code": "busuanga",
+    "value": "Busuanga",
+    "coords": {
+      "lat": 12.133542285482104,
+      "lng": 119.93686935485198
+    },
+    "barangay": [
+      "BOGTONG",
+      "BULUANG",
+      "CHEEY",
+      "CONCEPCION",
+      "MAGLALAMBAY",
+      "NEW BUSUANGA",
+      "OLD BUSUANGA",
+      "PANLAITAN",
+      "QUEZON",
+      "SAGRADA",
+      "SALVACION",
+      "SAN ISIDRO",
+      "SAN RAFAEL",
+      "SANTO NIÑO"
+    ]
+  },
+  {
+    "order": 14,
+    "code": "cagayancillo",
+    "value": "Cagayancillo",
+    "coords": {
+      "lat": 9.577639098621157,
+      "lng": 121.19806587393961
+    },
+    "barangay": [
+      "BANTAYAN",
+      "CALSADA",
+      "CONVENTO",
+      "LIPOT NORTH",
+      "LIPOT SOUTH",
+      "MAGSAYSAY",
+      "MAMPIO",
+      "NUSA",
+      "SANTA CRUZ",
+      "TACAS",
+      "TALAGA",
+      "WAHIG"
+    ]
+  },
+  {
+    "order": 8,
+    "code": "coron",
+    "value": "Coron",
+    "coords": {
+      "lat": 11.998856324689898,
+      "lng": 120.20520834135606
+    },
+    "barangay": [
+      "BANUANG DAAN",
+      "BARANGAY I",
+      "BARANGAY II",
+      "BARANGAY III",
+      "BARANGAY IV",
+      "BARANGAY V",
+      "BARANGAY VI",
+      "BINTUAN",
+      "BORAC",
+      "BUENAVISTA",
+      "BULALACAO",
+      "CABUGAO",
+      "DECABOBO",
+      "DECALACHAO",
+      "GUADALUPE",
+      "LAJALA",
+      "MALAWIG",
+      "MARCILLA",
+      "SAN JOSE",
+      "SAN NICOLAS",
+      "TAGUMPAY",
+      "TARA",
+      "TURDA"
+    ]
+  },
+  {
+    "order": 9,
+    "code": "culion",
+    "value": "Culion",
+    "coords": {
+      "lat": 11.894616767148575,
+      "lng": 120.01934599718055
+    },
+    "barangay": [
+      "BALALA",
+      "BALDAT",
+      "BINUDAC",
+      "BURABOD",
+      "CULANGO",
+      "DE CARABAO",
+      "GALOC",
+      "HALSEY",
+      "JARDIN",
+      "LIBIS",
+      "LUAC",
+      "MALAKING PATAG",
+      "OSMEÑA",
+      "TIZA"
+    ]
+  },
+  {
+    "order": 11,
+    "code": "cuyo",
+    "value": "Cuyo",
+    "coords": {
+      "lat": 10.854454568561376,
+      "lng": 121.00769868867185
+    },
+    "barangay": [
+      "BALADING",
+      "BANGCAL",
+      "CABIGSING",
+      "CABURIAN",
+      "CAPONAYAN",
+      "CATADMAN",
+      "FUNDA",
+      "LAGAORIAO",
+      "LUBID",
+      "LUNGSOD",
+      "MANAMOC",
+      "MARINGIAN",
+      "PAWA",
+      "SAN CARLOS",
+      "SUBA",
+      "TENGA-TENGA",
+      "TUCADAN"
+    ]
+  },
+  {
+    "order": 4,
+    "code": "dumaran",
+    "value": "Dumaran",
+    "coords": {
+      "lat": 10.528325908601497,
+      "lng": 119.77003966833813
+    },
+    "barangay": [
+      "BACAO",
+      "BOHOL",
+      "CALASAG",
+      "CAPAYAS",
+      "CATEP",
+      "CULASIAN",
+      "DANLEG",
+      "DUMARAN",
+      "ITANGIL",
+      "ILIAN",
+      "MAGSAYSAY",
+      "SAN JUAN",
+      "SANTA MARIA",
+      "SANTA TERESITA",
+      "SANTO TOMAS",
+      "TANATANAON"
+    ]
+  },
+  {
+    "order": 6,
+    "code": "el_nido",
+    "value": "El Nido",
+    "coords": {
+      "lat": 11.180160698582604,
+      "lng": 119.39040811620625
+    },
+    "barangay": [
+      "ABERAWAN",
+      "BAGONG BAYAN",
+      "BAROTUAN",
+      "BEBELADAN",
+      "BUCANA",
+      "BUENA SUERTE",
+      "CORONG-CORONG",
+      "MABINI",
+      "MALIGAYA",
+      "MANLAG",
+      "MASAGANA",
+      "NEW IBAJAY",
+      "PASADEÑA",
+      "SAN FERNANDO",
+      "SIBALTAN",
+      "TENEGUIBAN",
+      "VILLA LIBERTAD",
+      "VILLA PAZ"
+    ]
+  },
+  {
+    "order": 10,
+    "code": "linapacan",
+    "value": "Linapacan",
+    "coords": {
+      "lat": 11.491112024151153,
+      "lng": 119.86660321772568
+    },
+    "barangay": [
+      "BARANGONAN",
+      "CABUNLAWAN",
+      "CALIBANGBANGAN",
+      "DECABAITOT",
+      "MAROYOGROYOG",
+      "NANGALAO",
+      "NEW CULAYLAYAN",
+      "PICAL",
+      "SAN MIGUEL",
+      "SAN NICOLAS"
+    ]
+  },
+  {
+    "order": 13,
+    "code": "magsaysay",
+    "value": "Magsaysay",
+    "coords": {
+      "lat": 10.866120521234352,
+      "lng": 121.05123560530826
+    },
+    "barangay": [
+      "ALCOBA",
+      "BALAGUEN",
+      "CANIPO",
+      "COCORO",
+      "DANAWAN-POBLACION",
+      "EMILOD",
+      "IGABAS",
+      "LACAREN",
+      "LOS ANGELES",
+      "LUCBUAN"
+    ]
+  },
+  {
+    "order": 1,
+    "code": "roxas",
+    "value": "Roxas",
+    "coords": {
+      "lat": 10.318203708142601,
+      "lng": 119.34098553523428
+    },
+    "barangay": [
+      "ABAROAN",
+      "ANTONINO",
+      "BAGONG BAYAN",
+      "BARANGAY I",
+      "BARANGAY II",
+      "BARANGAY III",
+      "BARANGAY IV",
+      "BARANGAY V",
+      "BARANGAY VI",
+      "CARAMAY",
+      "DUMARAO",
+      "IRAAN",
+      "JOLO",
+      "MAGARA",
+      "MALCAMPO",
+      "MENDOZA",
+      "NARRA",
+      "NEW BARBACAN",
+      "NEW CUYO",
+      "NICANOR ZABALA",
+      "RIZAL",
+      "SALVACION",
+      "SAN ISIDRO",
+      "SAN JOSE",
+      "SAN MIGUEL",
+      "SAN NICOLAS",
+      "SANDOVAL",
+      "TAGUMPAY",
+      "TARADUNGAN",
+      "TINITIAN",
+      "TUMARBONG"
+    ]
+  },
+  {
+    "order": 2,
+    "code": "san_vicente",
+    "value": "San Vicente",
+    "coords": {
+      "lat": 10.530613324228774,
+      "lng": 119.25480027804377
+    },
+    "barangay": [
+      "ALIMANGUAN",
+      "BINGA",
+      "CARURAY",
+      "KEMDENG",
+      "NEW AGUTAYA",
+      "NEW CANIPO",
+      "POBLACION",
+      "PORT BARTON",
+      "SAN ISIDRO",
+      "SANTO NIÑO"
+    ]
+  },
+  {
+    "order": 5,
+    "code": "taytay",
+    "value": "Taytay",
+    "coords": {
+      "lat": 10.825241274770676,
+      "lng": 119.51834083950466
+    },
+    "barangay": [
+      "ABONGAN",
+      "ALACALIAN",
+      "BANBANAN",
+      "BANTULAN",
+      "BARAS",
+      "BATAS",
+      "BATO",
+      "BETON",
+      "BUSY BEES",
+      "CALAWAG",
+      "CASIAN",
+      "CATABAN",
+      "DEBANGAN",
+      "DEPLA",
+      "LIBERTAD",
+      "LIMINANGCONG",
+      "MEYTEGUED",
+      "MINAPLA",
+      "NEW GUINLO",
+      "OLD GUINLO",
+      "PAGLAUM",
+      "PALY",
+      "PAMANTOLON",
+      "PANCOL",
+      "POBLACION",
+      "PULARAQUEN",
+      "SAN JOSE",
+      "SANDOVAL",
+      "SILANGA",
+      "TALOG",
+      "TUMBOD"
+    ]
+  }
+]

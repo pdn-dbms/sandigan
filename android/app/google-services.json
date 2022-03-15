@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "215355536969",
+    "project_id": "pdn-dbms",
+    "storage_bucket": "pdn-dbms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215355536969:android:fc9dc5a2d24a5f6aec3198",
+        "android_client_info": {
+          "package_name": "com.politic.dbms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215355536969-83dkvrlr59tln3oh3p9qh5o1vgc291q2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFGVFsMTSTAk12bCvnj97ejNauRW8elo4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215355536969-83dkvrlr59tln3oh3p9qh5o1vgc291q2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
