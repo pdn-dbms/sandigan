@@ -241,16 +241,21 @@ class SqliteDB {
   Future<Object> getMuniVLCount({required String muni}) async {
     final sqlite = await db;
     final List<Map<String, dynamic>> maps = await sqlite.rawQuery(
-        'SELECT count(muni) as "count" FROM voters where muni = ?',
+        'SELECT tagAs, count(muni) as "count" FROM voters where muni = ? GROUP BY tagAs',
         [muni.toUpperCase()]);
+    double voters = 0;
+    double supporters = 0;
 
-    final List<Map<String, dynamic>> maps2 = await sqlite.rawQuery(
-        'SELECT count(muni) as "count" FROM voters where muni = ? and tagAs = "ACA Supporter"',
-        [muni.toUpperCase()]);
+    for (var i = 0; i < maps.length; i++) {
+      voters = voters + double.parse(maps[i]['count'].toString());
+      if (maps[i]['tagAs'] == 'ACA Supporter') {
+        supporters = supporters + double.parse(maps[i]['count'].toString());
+      }
+    }
 
     return {
-      'voters': maps[0]['count'],
-      'supporters': maps2[0]['count'],
+      'voters': voters.toString(),
+      'supporters': supporters.toString(),
     };
   }
 
@@ -265,16 +270,19 @@ class SqliteDB {
       {required String muni, required String brgy}) async {
     final sqlite = await db;
     final List<Map<String, dynamic>> maps = await sqlite.rawQuery(
-        'SELECT count(muni) as "count" FROM voters where muni = ? and brgy = ?',
-        [muni.toUpperCase(), brgy]);
-
-    final List<Map<String, dynamic>> maps2 = await sqlite.rawQuery(
-        'SELECT count(muni) as "count" FROM voters where brgy = ? and muni = ? and tagAs = "ACA Supporter"',
+        'SELECT tagAs, count(muni) as "count" FROM voters where brgy = ? and muni = ? GROUP BY tagAs',
         [brgy, muni.toUpperCase()]);
-
+    double voters = 0;
+    double supporters = 0;
+    for (var i = 0; i < maps.length; i++) {
+      voters = voters + double.parse(maps[i]['count'].toString());
+      if (maps[i]['tagAs'] == 'ACA Supporter') {
+        supporters = supporters + double.parse(maps[i]['count'].toString());
+      }
+    }
     return {
-      'voters': maps[0]['count'],
-      'supporters': maps2[0]['count'],
+      'voters': voters.toString(),
+      'supporters': supporters.toString(),
     };
   }
 }

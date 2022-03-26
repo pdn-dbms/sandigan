@@ -1,8 +1,10 @@
+import 'dart:convert';
 import 'dart:io';
 
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:pol_dbms/services/db.dart';
+import 'package:pol_dbms/services/sqlite_db.dart';
 
 class FireAuth {
   String lastError = '';
@@ -82,6 +84,12 @@ class FireAuth {
         password: password,
       );
       user = userCredential.user;
+
+      Db().getUserAccess(user!.uid).then((value) {
+        var data = value.data() as Map;
+        data.remove('last_location');
+        SqliteDB().updateLocalConfig('user', json.encode(data));
+      });
     } on FirebaseAuthException catch (e) {
       if (e.code == 'user-not-found') {
         setLastError('No user found for that email.');

@@ -31,8 +31,8 @@ _launchCaller(String number) async {
 }
 
 class _LeaderDetailsState extends State<LeaderDetails> {
-  bool isAdmin = true;
-  bool isUserAdmin = true;
+  bool isAdmin = false;
+  bool isUserAdmin = false;
   @override
   void initState() {
     super.initState();

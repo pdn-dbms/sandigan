@@ -9,7 +9,7 @@ class LeaderScreen extends StatefulWidget {
 }
 
 class _LeaderScreenState extends State<LeaderScreen> {
-  bool isAdmin = true;
+  bool isAdmin = false;
   @override
   void initState() {
     super.initState();

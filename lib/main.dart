@@ -20,13 +20,6 @@ void main() async {
 
 Future getCurrentUser() async {
   User _user = FirebaseAuth.instance.currentUser!;
-
-  Db().getUserAccess(_user.uid).then((value) {
-    var data = value.data() as Map;
-    data.remove('last_location');
-    SqliteDB().updateLocalConfig('user', json.encode(data));
-  });
-
   return _user;
 }
 
@@ -36,7 +29,7 @@ class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'PDN-DBMS',
+      title: 'Sandigan',
       debugShowCheckedModeBanner: false,
       theme: theme.copyWith(
         colorScheme: theme.colorScheme.copyWith(

@@ -19,7 +19,7 @@ class NavDrawer extends StatefulWidget {
 
 class _NavDrawerState extends State<NavDrawer> {
   final String name = FirebaseAuth.instance.currentUser!.displayName.toString();
-  bool isAdmin = true;
+  bool isAdmin = false;
 
   @override
   void initState() {
